@@ -29,7 +29,6 @@ Gem::Specification.new do |s|
      "test/models/group.rb",
      "test/models/message.rb",
      "test/models/person.rb",
-     "test/models/review.rb",
      "test/schema.rb",
      "test/setup_test.rb",
      "test/xss_terminate_test.rb"
@@ -45,7 +44,6 @@ Gem::Specification.new do |s|
      "test/models/group.rb",
      "test/models/message.rb",
      "test/models/person.rb",
-     "test/models/review.rb",
      "test/schema.rb",
      "test/setup_test.rb",
      "test/xss_terminate_test.rb"
