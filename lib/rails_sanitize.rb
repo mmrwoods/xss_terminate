@@ -5,7 +5,7 @@ class RailsSanitize
 
   # Determines if the current Rails version is 2.2 or higher
   def self.rails_2_or_higher
-    ActionPack::VERSION::MAJOR == 3 || (ActionPack::VERSION::MAJOR == 2 && ActionPack::VERSION::MINOR >= 2)
+    ActionPack::VERSION::MAJOR >= 3 || (ActionPack::VERSION::MAJOR == 2 && ActionPack::VERSION::MINOR >= 2)
   end
 
   if rails_2_or_higher
